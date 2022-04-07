@@ -1,0 +1,10 @@
+{% extends "appUser/base.html"  %}
+{% load crispy_forms_tags % }
+
+     {% block content %}
+     <form action="" method="post" autocomplete="off">
+           {{form|crispy}}
+     </form>
+
+<!--<p> showing django form to implement crud operation</p>-->
+     {% endblock content %}
